@@ -1,23 +1,23 @@
 export const siteConfig = {
-  name: 'INTIMO',
+  name: 'Uft Underwear',
   description: 'Магазин нижнего белья',
   url: 'https://intimo.ru',
   
   currency: {
-    code: 'RUB',
-    symbol: '₽',
+    code: 'UZS',
+    symbol: 'UZS',
     position: 'after' as const,
   },
 
   contacts: {
-    phone: '+7 (999) 123-45-67',
-    email: 'info@intimo.ru',
-    address: 'г. Москва, ул. Примерная, д. 1',
+    phone: '+998 33 170 66 22',
+    email: 'info@KOBIL.uz',
+    address: 'г. Urgut, ул. urgut, д. 1',
     workHours: 'Пн-Вс: 10:00-22:00',
   },
 
   social: {
-    instagram: 'https://instagram.com/intimo',
+    instagram: 'https://instagram.com/uft.underwear',
     telegram: 'https://t.me/intimo',
     whatsapp: 'https://wa.me/79991234567',
   },

@@ -36,10 +36,22 @@ export default function AdminCategoryEditPage({ params }: Props) {
             setForm({
               slug: cat.slug || '',
               image: cat.image || '',
-              ru: cat.ru || { name: '', description: '' },
-              en: cat.en || { name: '', description: '' },
-              uz: cat.uz || { name: '', description: '' },
-              tj: cat.tj || { name: '', description: '' },
+            ru: {
+  name: cat.ru?.name || '',
+  description: cat.ru?.description || ''
+},
+en: {
+  name: cat.en?.name || '',
+  description: cat.en?.description || ''
+},
+uz: {
+  name: cat.uz?.name || '',
+  description: cat.uz?.description || ''
+},
+tj: {
+  name: cat.tj?.name || '',
+  description: cat.tj?.description || ''
+},
             });
           }
           setLoading(false);
