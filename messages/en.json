@@ -1,0 +1,139 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "all": "All",
+    "more": "More",
+    "back": "Back",
+    "next": "Next",
+    "prev": "Previous"
+  },
+  "nav": {
+    "search": "Search",
+    "home": "Home",
+    "catalog": "Catalog",
+    "collections": "Collections",
+    "about": "About",
+    "contacts": "Contacts",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "account": "Account",
+    "team": "Our Team"
+  },
+  "home": {
+    "hero": {
+      "title": "Feel Special",
+      "subtitle": "Premium lingerie from Russian manufacturer",
+      "cta": "View Catalog"
+    },
+    "featured": {
+      "title": "Popular Products",
+      "viewAll": "View All"
+    },
+    "categories": {
+      "title": "Categories",
+      "viewAll": "All Categories"
+    },
+    "benefits": {
+      "title": "Why Choose Us",
+      "delivery": "Free Delivery",
+      "deliveryDesc": "For orders over 5000 ₽",
+      "quality": "Own Production",
+      "qualityDesc": "Quality control at every stage",
+      "support": "Stylist Consultation",
+      "supportDesc": "We help you choose the right size"
+    }
+  },
+  "catalog": {
+    "title": "Catalog",
+    "filters": "Filters",
+    "sort": "Sort",
+    "clearFilters": "Clear Filters",
+    "noResults": "No products found",
+    "noResultsDesc": "Try changing search parameters"
+  },
+  "product": {
+    "discount": "Discount",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "addToWishlist": "Add to Wishlist",
+    "selectSize": "Select Size",
+    "sizeGuide": "Size Guide",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "sku": "SKU",
+    "description": "Description",
+    "similar": "You may also like"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Cart is empty",
+    "emptyDesc": "Add products",
+    "continueShopping": "Continue Shopping",
+    "item": "Item",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "delivery": "Delivery",
+    "deliveryFree": "Free",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "clear": "Clear Cart"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "comment": "Comment",
+    "placeOrder": "Place Order",
+    "orderTotal": "Total",
+    "success": "Thank you for your order!",
+    "orderNumber": "Order number: {number}"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contacts": "Contacts",
+    "workHours": "Working Hours"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English",
+    "uz": "O'zbek",
+    "tj": "Тоҷикӣ"
+  },
+  "errors": {
+    "required": "Required field",
+    "invalidEmail": "Invalid email",
+    "invalidPhone": "Invalid phone"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "INTIMO — Russian premium lingerie brand"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address"
+  },
+  "collections": {
+    "title": "Collections",
+    "description": "Our collections"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet our team"
+  }
+}

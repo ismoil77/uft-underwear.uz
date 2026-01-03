@@ -1,0 +1,139 @@
+{
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "retry": "Qayta urinish",
+    "close": "Yopish",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "search": "Qidirish",
+    "all": "Hammasi",
+    "more": "Batafsil",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "prev": "Oldingi"
+  },
+  "nav": {
+    "search": "Qidiruv",
+    "home": "Bosh sahifa",
+    "catalog": "Katalog",
+    "collections": "Kolleksiyalar",
+    "about": "Kompaniya haqida",
+    "contacts": "Kontaktlar",
+    "cart": "Savat",
+    "wishlist": "Sevimlilar",
+    "account": "Kabinet",
+    "team": "Bizning jamoa"
+  },
+  "home": {
+    "hero": {
+      "title": "O'zingizni maxsus his qiling",
+      "subtitle": "Rossiya ishlab chiqaruvchisidan premium ichki kiyimlar",
+      "cta": "Katalogni ko'rish"
+    },
+    "featured": {
+      "title": "Mashhur mahsulotlar",
+      "viewAll": "Hammasini ko'rish"
+    },
+    "categories": {
+      "title": "Kategoriyalar",
+      "viewAll": "Barcha kategoriyalar"
+    },
+    "benefits": {
+      "title": "Nega bizni tanlashadi",
+      "delivery": "Bepul yetkazib berish",
+      "deliveryDesc": "5000 ₽ dan ortiq buyurtmalar uchun",
+      "quality": "O'z ishlab chiqarishimiz",
+      "qualityDesc": "Har bir bosqichda sifat nazorati",
+      "support": "Stilist maslahati",
+      "supportDesc": "O'lcham tanlashda yordam beramiz"
+    }
+  },
+  "catalog": {
+    "title": "Katalog",
+    "filters": "Filtrlar",
+    "sort": "Saralash",
+    "clearFilters": "Filtrlarni tozalash",
+    "noResults": "Mahsulotlar topilmadi",
+    "noResultsDesc": "Qidiruv parametrlarini o'zgartirib ko'ring"
+  },
+  "product": {
+    "discount": "Chegirma",
+    "addToCart": "Savatga qo'shish",
+    "buyNow": "Hozir sotib olish",
+    "addToWishlist": "Sevimlilarga",
+    "selectSize": "O'lchamni tanlang",
+    "sizeGuide": "O'lchamlar jadvali",
+    "inStock": "Mavjud",
+    "outOfStock": "Mavjud emas",
+    "sku": "Artikul",
+    "description": "Tavsif",
+    "similar": "Sizga yoqishi mumkin"
+  },
+  "cart": {
+    "title": "Savat",
+    "empty": "Savat bo'sh",
+    "emptyDesc": "Mahsulotlar qo'shing",
+    "continueShopping": "Xaridni davom ettirish",
+    "item": "Mahsulot",
+    "price": "Narx",
+    "quantity": "Miqdor",
+    "total": "Jami",
+    "subtotal": "Buyurtma summasi",
+    "delivery": "Yetkazib berish",
+    "deliveryFree": "Bepul",
+    "checkout": "Buyurtma berish",
+    "remove": "O'chirish",
+    "clear": "Savatni tozalash"
+  },
+  "checkout": {
+    "title": "Buyurtmani rasmiylashtirish",
+    "name": "Ism",
+    "phone": "Telefon",
+    "email": "Email",
+    "address": "Manzil",
+    "comment": "Izoh",
+    "placeOrder": "Buyurtmani tasdiqlash",
+    "orderTotal": "To'lov uchun",
+    "success": "Buyurtmangiz uchun rahmat!",
+    "orderNumber": "Buyurtma raqami: {number}"
+  },
+  "footer": {
+    "rights": "Barcha huquqlar himoyalangan",
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Ommaviy oferta",
+    "contacts": "Kontaktlar",
+    "workHours": "Ish vaqti"
+  },
+  "language": {
+    "ru": "Русский",
+    "en": "English",
+    "uz": "O'zbek",
+    "tj": "Тоҷикӣ"
+  },
+  "errors": {
+    "required": "Majburiy maydon",
+    "invalidEmail": "Noto'g'ri email",
+    "invalidPhone": "Noto'g'ri telefon"
+  },
+  "about": {
+    "title": "Kompaniya haqida",
+    "description": "INTIMO — Rossiya premium ichki kiyim brendi"
+  },
+  "contacts": {
+    "title": "Kontaktlar",
+    "phone": "Telefon",
+    "email": "Email",
+    "address": "Manzil"
+  },
+  "collections": {
+    "title": "Kolleksiyalar",
+    "description": "Bizning kolleksiyalar"
+  },
+  "team": {
+    "title": "Bizning jamoa",
+    "description": "Jamoamiz bilan tanishing"
+  }
+}
