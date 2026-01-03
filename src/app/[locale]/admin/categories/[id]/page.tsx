@@ -36,7 +36,7 @@ export default function AdminCategoryEditPage({ params }: Props) {
             setForm({
               slug: cat.slug || '',
               image: cat.image || '',
-            ru: {
+           ru: {
   name: cat.ru?.name || '',
   description: cat.ru?.description || ''
 },
