@@ -33,15 +33,15 @@ export default function AdminPropertyEditPage({ params }: Props) {
       propertiesAPI.getAll().then((props) => {
         const prop = props.find((p) => p.id === parseInt(id));
         if (prop) {
-          setForm({
-            key: prop.key || '',
-            type: prop.type || 'text',
-            options: prop.options?.length ? prop.options : [''],
-            ru: prop.ru || { label: '' },
-            en: prop.en || { label: '' },
-            uz: prop.uz || { label: '' },
-            tj: prop.tj || { label: '' },
-          });
+         setForm({
+  key: prop.key || '',
+  type: prop.type || 'text',
+  options: prop.options?.length ? prop.options : [''],
+  ru: { label: prop.ru?.label || '' },
+  en: { label: prop.en?.label || '' },
+  uz: { label: prop.uz?.label || '' },
+  tj: { label: prop.tj?.label || '' },
+});
         }
         setLoading(false);
       });
