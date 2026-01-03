@@ -14,11 +14,15 @@ export function HeroBanner() {
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
       
       {/* Pattern overlay */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("https://thumbs.dreamstime.com/b/%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0-%D0%BD%D0%B8%D0%B6%D0%BD%D0%B5%D0%B3%D0%BE-%D0%B1%D0%B5%D0%BB%D1%8C%D1%8F-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B-%D0%B8%D0%BB%D0%B8-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D0%B0-193199129.jpg")`,
-        }} />
-      </div>
+      {/* Pattern overlay */}
+<div className="absolute inset-0 opacity-20"> {/* Увеличил до 20%, чтобы было заметно */}
+  <div className="w-full h-full" style={{
+    backgroundImage: `url("https://thumbs.dreamstime.com/b/%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0-%D0%BD%D0%B8%D0%B6%D0%BD%D0%B5%D0%B3%D0%BE-%D0%B1%D0%B5%D0%BB%D1%8C%D1%8F-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B-%D0%B8%D0%BB%D0%B8-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D0%B0-193199129.jpg")`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  }} />
+</div>
 
       <div className="container relative">
         <div className="py-24 md:py-32 lg:py-40 text-center max-w-3xl mx-auto">
